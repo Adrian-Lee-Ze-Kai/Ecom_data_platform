@@ -7,6 +7,8 @@ Two data engineering projects: a relational database you can start with Docker, 
 | [**Sales Transactions Database**](sales-database/) | Normalised schema design, data integrity constraints, indexing for analyst queries, reproducible setup with Docker | PostgreSQL, Docker Compose, SQL, Python |
 | [**Image Processing Platform**](image-platform-architecture/) | End-to-end AWS design: streaming and API ingestion, event-driven processing, 7-day privacy retention, serverless BI | AWS (S3, SQS, Lambda, DynamoDB, Kafka on EC2, Glue, Athena, QuickSight) |
 
+> **About this repo:** this started as a data engineering take-home assessment. Afterwards I reworked it into a portfolio project, using Claude to help restructure the repo, replace the original dataset with synthetic data, and organise the commits. The schema design, SQL queries, AWS architecture and design write-up are my original assessment work.
+
 ## Sales Transactions Database
 [![ERD](sales-database/erd.png)](sales-database/)
 
